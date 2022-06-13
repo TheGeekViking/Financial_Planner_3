@@ -11710,8 +11710,6 @@ body {
 
 /* Custom CSS */
 
-/* background video */
-
 
 /* Owl Carousel */
 
@@ -11827,6 +11825,28 @@ body {
 
 .owl-next {
   right: 1%;
+}
+
+@media (max-width: 600px) {
+  .owl-para {
+    display: none;
+  }
+  .slide-content-2 {
+    position: absolute;
+    left: -14%;
+  }
+  .slide-content-3 {
+    position: absolute;
+    left: -11%;
+  }
+  .slide-content-4 {
+    position: absolute;
+    left: -11%;
+  }
+  .slide-content-5 {
+    position: absolute;
+    left: -8%;
+  }
 }
 
 /* VLOG */
